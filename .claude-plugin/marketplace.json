@@ -14,7 +14,9 @@
       "description": "wakari.me が厳選・カスタマイズした Claude スキル集",
       "source": "./",
       "strict": false,
-      "skills": []
+      "skills": [
+        "./skills/mcp-builder"
+      ]
     }
   ]
 }

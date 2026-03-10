@@ -3,7 +3,7 @@
 > **Claude Agent Skills を発掘・整理・カスタマイズして公開するリポジトリ**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills Count](https://img.shields.io/badge/skills-0-blue)](./skills)
+[![Skills Count](https://img.shields.io/badge/skills-1-blue)](./skills)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-compatible-blueviolet)](https://claude.ai/code)
 [![Maintained](https://img.shields.io/badge/maintained-actively-green)](./)
 
@@ -47,13 +47,11 @@ cp -r skills/mcp-builder ~/.claude/skills/
 
 ## 📦 スキル一覧
 
-> スキルは順次追加していきます。[wakari.me](https://wakari.me) で発掘・検証の過程を記事にしています。
-
 ### 🔧 開発・インフラ系
 
 | スキル | 元ソース | カスタマイズ内容 | 難易度 |
 |--------|---------|----------------|--------|
-| Coming soon... | — | — | — |
+| [mcp-builder](./skills/mcp-builder) | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) | Python 削除・bun 対応・日本語化 | ⭐⭐⭐ |
 
 ### 🤖 AI / Claude Code ワークフロー系
 
@@ -102,7 +100,7 @@ changes:
 ---
 ```
 
-変更点は GitHub の Compare ビューで確認できます 👇
+変更点は GitHub の Compare ビューで確認できます 👇  
 `github.com/wakari-me/skills/compare/upstream...main`
 
 ---
