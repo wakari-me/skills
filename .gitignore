@@ -1,0 +1,49 @@
+# ===========================
+# Obsidian
+# ===========================
+# ワークスペースの状態（個人設定なので除外）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache
+
+# プラグインのキャッシュ・一時ファイル
+.obsidian/plugins/**/data.json
+
+# 以下は共有する（Vault の設定として有用）
+# .obsidian/app.json
+# .obsidian/appearance.json
+# .obsidian/core-plugins.json
+# .obsidian/community-plugins.json
+# .obsidian/hotkeys.json
+# .obsidian/plugins/
+
+# ===========================
+# macOS
+# ===========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===========================
+# エディタ
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# Node.js / bun
+# ===========================
+node_modules/
+.env
+.env.local
+bun.lockb
+
+# ===========================
+# その他
+# ===========================
+*.log
+.tmp/

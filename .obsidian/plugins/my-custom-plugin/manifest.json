@@ -1,0 +1,10 @@
+{
+  "id": "my-custom-plugin",
+  "name": "My Custom Plugin",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.12",
+  "description": "A custom plugin to toggle Vim mode",
+  "author": "Your Name",
+  "authorUrl": "https://yourwebsite.com",
+  "isDesktopOnly": true
+}

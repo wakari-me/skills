@@ -1,0 +1,20 @@
+{
+  "name": "wakari-me-skills",
+  "owner": {
+    "name": "wakari-me",
+    "url": "https://skills.wakari.me"
+  },
+  "metadata": {
+    "description": "Claude Agent Skills — 発掘・カスタマイズ・公開",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "all-skills",
+      "description": "wakari.me が厳選・カスタマイズした Claude スキル集",
+      "source": "./",
+      "strict": false,
+      "skills": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "baseFontSize": 13,
+  "translucency": true,
+  "theme": "system",
+  "enabledCssSnippets": [
+    "wide-note",
+    "normalize"
+  ],
+  "showRibbon": true
+}
